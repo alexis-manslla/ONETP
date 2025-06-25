@@ -1,0 +1,150 @@
+body{
+	background-color: #87a0c0;
+}
+.lista{
+	color: #c2940a;
+	text-shadow: 1px 2px #5c25f4;
+	font-weight: 900;
+}
+.boton{
+	background-color: #d0ddee;
+	border: 3px solid #000000;
+	color: #000000;
+	text-decoration-line: none;
+	transition-duration: 0.45s;
+	padding: 8px 4px;
+ 	cursor: pointer;
+ 	border-radius: 8px
+	}
+	.botonSesion1{
+		background-color: #e3b5b5;
+		border-color: #800000;
+		text-decoration: none;
+	}
+	.botonSesion1:hover{/* Esto cierra sesiones */
+		background-color: #cc0000; 
+		border-color: #800000;
+		color: #000000;
+	}
+	.botonAereo2{
+		background-color: #c9b5e3;
+		border-color: #575086;
+		text-decoration-line: none;
+	}
+	.botonAereo2:hover{/* Esto Agrega Aerolineas */
+		background-color: #3e3960; 
+		border-color: #575086;
+		color: #f6ffc7;
+	}
+	.botonVehiculo{
+		background-color: #8c795a;
+		border-color: #af9f83;
+		text-decoration-line: none;
+	}
+	.botonVehiculo:hover{/* Esto Agrega Vehiculo */
+		background-color: #4e4332; 
+		border-color: #8c795a;
+		color: #f6ffc7;
+	}
+	.botonInicio{
+		background-color: #b5e3c1;
+		border-color: #003e4d;
+		text-decoration: none;
+	}
+	.botonInicio:hover{/* Esto Inicia sesion */
+		background-color: #00758F; 
+		border-color: #003e4d;
+		color: #ffffff;
+	}
+	.botonRegi{
+		background-color: #e3d7b5;
+		border-color: #c68c53;
+		text-decoration: none;
+	}
+	.botonRegi:hover{/* Esto Registra usuario */
+		background-color: #4d3319; 
+		border-color: #c68c53;
+		color: #c2660a;
+	}
+	.comun{
+		background-color: #a67c54;
+		border-color: #ddcbbb;
+		text-decoration: none;
+	}
+	.comun:hover{/* Esto Registra usuario */
+		background-color: #4d3319; 
+		border-color: #f4c025;
+		color: #eee5dd;
+	}
+	.inicio{
+		background-color: #b6cdc2;
+		border-color: #86ac9a;
+		text-decoration: none;
+	}
+	.inicio:hover{/* Esto vuelve al index (ONETP) */
+		background-color: #993366; 
+		border-color: #4e9774;
+		color: #ffffff;
+	}
+	.boton:hover{/* Esto vuelve en negrita la letra cuando pasa el mouse */
+		font-weight: 900;
+	}
+.p{
+	color: #ff0000;
+	font-size: 36px
+}
+table.tablaasientos { /* --------------------------------Tabla asientos------------------------------------------- */ 
+	border-collapse: collapse;
+}
+
+table.tablaasientos tr.skip {
+	display: none;
+}
+
+table.tablaasientos td {
+	width: 20px;
+	height: 18px;
+	background: no-repeat center center;
+	padding: 0;
+	margin: 0;
+}
+
+table.tablaasientos td.asientodisp:hover {
+	background-image: url('static/imagentes/"AsientoLibre.png"') !important; 
+}
+
+table.tablaasientos td.asientodisp{
+	cursor: pointer;
+	background-image: url('static/imagentes/"AsientoOff.png"');
+}
+
+
+table.tablaasientos td.selec { /* --------------------------------Tabla asientos------------------------------------------- */ 
+	cursor: pointer;
+	background-image: url('static/imagentes/"Asiento.png"');
+}
+input.form-control, select.form-control{
+	background-color: #d8ddee;
+}
+	input.form-control:focus, select.form-control:focus{
+	background-color: #cad1e8;
+}
+label.form-label{
+	font-weight: 900;
+}
+table.tablaasientos{
+	display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: gray;
+    width: 420px;
+    height: 18px;
+}
+p.usuario {
+	font-weight: 900;
+	text-shadow: 2px 2px #1affff;
+	font-size: 22px;
+}
